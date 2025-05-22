@@ -1,4 +1,4 @@
- **"50 Projects in 50 Days - HTML, CSS & JavaScript"** 
+ **"50 Projects in 50 Days - HTML, CSS & JavaScript"** 50 Projects in 50 Days – HTML, CSS & JavaScript
 
 Welcome to the official GitHub repository for the **50 Projects in 50 Days** course! 🎉
 
