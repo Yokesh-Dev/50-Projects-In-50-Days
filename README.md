@@ -1,5 +1,4 @@
- **"50 Projects in 50 Days - HTML, CSS & JavaScript"** 50 Projects in 50 Days – HTML, CSS & JavaScript
-
+ **"50 Projects in 50 Days - HTML, CSS & JavaScript"** 
 Welcome to the official GitHub repository for the **50 Projects in 50 Days** course! 🎉
 
 This is a hands-on, project-based learning experience designed to help you master front-end web development by building 50+ mini projects using HTML, CSS, and JavaScript. Whether you're a beginner or looking to enhance your skills, this course offers a practical approach to learning.
