@@ -148,3 +148,5 @@ You learn:
 * ✅ Basic state tracking (`currentActive`)
 
 ---
+![image](https://github.com/user-attachments/assets/addab751-5cc5-4511-99de-1454b125c374)
+
