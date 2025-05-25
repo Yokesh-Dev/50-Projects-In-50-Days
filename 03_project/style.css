@@ -140,6 +140,11 @@ nav ul li +li +li {
     transition-delay: 0.3s;
 }
  
+
+.container.show-nav .circle {
+    transform: rotate(-70deg);
+}
+
     /* The transform-origin property of CSS is used to specify the origin of the rotation of an element. It is the point at which an element is rotated. 
 ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
 linear - specifies a transition effect with the same speed from start to end
