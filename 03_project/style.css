@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'roboto', 'popins' , 'Times New Roman', Times, serif;
+    margin: 0;
+    overflow-x: hidden; /* Hides scroll in X axis  */
+    background-color: #333;
+    
+}
+
+.container{
+    background-color: #fafafa;
+    transform-origin: top left;
+    transition:transform 0.5s linear; 
+    width: 100vw;
+    min-height: 100vh;
+    padding: 50px;
+    
+}
+
+.container.show-nav {
+    transform:rotate(-20deg);
+}
+
+.circle-container {
+    position: fixed;
+    top: -100px;
+    left: -100px;
+}
+
+.circle {
+        background-color: #ff7979;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        position: relative;
+        transition:transform 0.5s linear;
+}
+
+.circle button {
+    position:absolute;
+    top:50%;
+    left:50%;
+    height: 100px;
+    background:transparent;
+    border: 0;
+    font-size:26px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.circle button:focus {
+    outline: none;
+
+}
+
+.circle button#open {
+    left: 60%;
+}
+
+
+.circle button#close {
+    top: 60%;
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+
+
+.content img {
+    max-width: 100%;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+h6 {
+    color:brown;
+    border: 0;
+    margin: 0;
+    font-style: italic;
+}
+
+h1 {
+    margin: 0;
+
+}
+
+.content p {
+    color: #333;
+    line-height: 1.5;
+}
+
+nav {
+    position: fixed;
+    bottom: 40px;
+    left: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 30px;
+}
+
+nav ul li {
+    transform: translateX(-100%);
+    text-transform: uppercase;
+    color: #fafafa;
+    margin: 40px 0 ;
+    
+    transition: transform 0.4s ease-in;
+}
+
+nav ul li i {
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+nav ul li +li {
+    font-size: 15px;
+    margin-right: 10px;
+    transform: translateX(-150%);
+}
+
+nav ul li +li +li {
+    font-size: 30px;
+    margin-right: 10px;
+    transform: translateX(-200%);
+}
+
+.container.show-nav + nav li {
+    transform: translate(0);
+    transition-delay: 0.3s;
+}
+ 
+    /* The transform-origin property of CSS is used to specify the origin of the rotation of an element. It is the point at which an element is rotated. 
+ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+linear - specifies a transition effect with the same speed from start to end
+ease-in - specifies a transition effect with a slow start
+ease-out - specifies a transition effect with a slow end
+ease-in-out - specifies a transition effect with a slow start and end
+The CSS :focus pseudo-class is used to select and style the element that gets focus.
+An outline is a line drawn outside the element's border.
+
+    */
